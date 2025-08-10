@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['glasses', 'gloves', 'helmet', 'shoes', 'worker']
+
+roboflow:
+  workspace: amy-am2ey
+  project: my-first-project-4p2fi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/amy-am2ey/my-first-project-4p2fi/dataset/1
